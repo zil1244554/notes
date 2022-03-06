@@ -10,7 +10,7 @@
 - 众多主题
 
 [GitHub](https://github.com/zil1244554/)
-[Get Started](?id=headline)
+[Get Started](?id=znote)
 
 
 <!-- 背景色 -->

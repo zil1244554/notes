@@ -2,3 +2,5 @@
     - [为什么学习python](demo.md)
 - 笔记
     - [if语句](if.md)
+    - [while语句](while.md)
+    - [for语句](for.md)

@@ -4,3 +4,4 @@
     - [if语句](if.md)
     - [while语句](while.md)
     - [for语句](for.md)
+    - [基本数据类型](basics.md)

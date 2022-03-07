@@ -5,3 +5,5 @@
     - [while语句](while.md)
     - [for语句](for.md)
     - [基本数据类型](basics.md)
+    - [运算符](math.md)
+    - [会考练习题](exam.md)

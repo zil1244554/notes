@@ -1,1 +1,8 @@
-没什么好写的
+没什么好写的  
+**补充:如果有听不懂的看不懂的有疑问的需要帮助的等等**  
+感动听课无力，听不懂内容？  
+担心学考？  
+加QQ：**1533044490**  
+这里有你想要的qwq  
+（当然也不一定包你过，重点是努力）  
+![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F09%2F20190109061207_eomds.thumb.400_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1649509102&t=78f14e084d05d1fae23fabbae60146a4)

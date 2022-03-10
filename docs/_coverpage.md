@@ -9,7 +9,7 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/zil1244554/)
+
 [Get Started](?id=znote)
 
 

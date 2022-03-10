@@ -1,10 +1,11 @@
 - 介绍
     - [为什么学习python](demo.md)
 - 笔记
+	- [赋值语句](change.md)
+	- [基本数据类型](basics.md)
+	- [运算符](math.md)
     - [if语句](if.md)
-    - [while语句](while.md)
     - [for语句](for.md)
-    - [基本数据类型](basics.md)
-    - [运算符](math.md)
+    - [while语句](while.md)
     - [tips](tips.md)
     - [会考练习题](exam.md)

@@ -7,6 +7,7 @@ a = 0 # a的值为零
 a = int(input()) # 把输入的正整数的值赋值给a
 ```
 **赋值语句是从右往左赋值的**   
+把右边的值赋值给左边的变量  
 
 下面的可以后面回过头来看  
 ***
@@ -37,6 +38,9 @@ for i in range(1,n+1):
 	print(sum)
 ```
 我们试着运行下，发现结果不只一个，sum输出了他每次的值  
+![](https://note.youdao.com/yws/api/personal/file/WEB2bbf9a9dd9649fac4ac07ab68f7ddd7a?method=download&shareKey=c6a6a8438ed3230efb3673630a84d19d)  
+我们再来对比下  
+![](https://note.youdao.com/yws/api/personal/file/WEB808f71aca7777793ec0bf94fb3944955?method=download&shareKey=a24492e68515ddc5bf7804db7dd9322e)  
 这是因为for语句这个循环会运行很多次用来计算总和，而print(sum)前面有一个缩进，被误判为是for语句里面的，所以for语句运行几次，他也就输出几次sum的值
 而我们只要输出一个值，也就是sum最后的值  
 * 注：实在不懂看题目，如果输出只有一个就放外面，多个放里面（不过具体还是得看题目，土办法只能应对大多数情况）

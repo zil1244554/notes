@@ -8,6 +8,8 @@ else:
 ```
 用中英直译就是：  
 **如果条件成立，就执行指令A。否则执行指令B**  
+注:if和else下面那个空格不能省略  
+而且else后面没有跟条件  
 举个例子：
 比如如何判断一个数是否大于0  
 就可以这样写  
@@ -75,6 +77,10 @@ if a > b:
 else:
     print("不大于")
 ```
+
+运行一下看看结果  
+![](https://note.youdao.com/yws/api/personal/file/WEB58e47d80710e74c4bf095605a1c66e0f?method=download&shareKey=f2038e5086a73b3d2413319c8980b88b)  
+![](https://note.youdao.com/yws/api/personal/file/WEB3d25bf7b8230e9166dd0375c018121f3?method=download&shareKey=adbce944857846cac70e5739937d66ae)  
 
 
 ***  

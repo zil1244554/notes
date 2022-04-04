@@ -1,4 +1,4 @@
-# for语句  
+## for语句  
 基本语法:  
 ```python
 for 变量名A in 循环体A:
@@ -128,7 +128,7 @@ print(sum)
 5
 ```
 
-题目讲解3月11日发1
+题目讲解3月11日发
 
 
 ## 最最最无脑版  
@@ -144,4 +144,123 @@ for i in range(字母1,字母2,字母3):
 如果理解不来步长就用取模大法  
 if n % 2 == 0:
 	sum = sum + i
+```  
+  
+## for语句课后习题讲解  
+### 第一题  
+1.首先题目让我们输入一个正整数,我们就可以先写
+```python
+n = int(input())
 ```
+2.然后让我们求1到n之间的奇数和，求一个区间内的数据，所以要用到for语句，然后是要求奇数,最后是要求个数，所以我们要先初始化一个变量来保存个数。
+```python
+n = int(input())
+geshu = 0
+for i in range(1,n+1):
+	if i % 2 == 1:			#取i除以2的余数，判断i是否为奇数
+		geshu = geshu + 1	#如果是，就把geshu这个变量加上1
+```
+3.最后在输出geshu这个变量的数
+```python
+n = int(input())
+geshu = 0
+for i in range(1,n+1):
+	if i % 2 == 1:
+		geshu = geshu + 1
+print(geshu)
+```
+### 第二题  
+1.跟大部分一样，让输入一个正整数
+```python
+n = int(input())
+# 基本可以当公式记
+```
+2.有一个区间，所以用for语句，用取余3，判断是否能被3整除，是的话个数加1
+```python
+n = int(input())
+geshu = 0
+# 记得先初始化变量
+for i in range(1, n+1):
+	if i % 3 == 0:
+		geshu = geshu + 1
+```
+3.最后输出结果
+```python
+n = int(input())
+geshu = 0
+for i in range(1, n+1):
+	if i % 3 == 0:
+		geshu = geshu + 1
+print(geshu)
+```
+注释：记得在最前面初始化一个变量来统计个数  
+### 第三题  
+1.先输入一个正整数n
+```python
+n = int(input())
+```
+2.先求出1到n之间能同时被3和5整除的数
+```python
+n = int(input())
+for i in range(1, n+1):
+	if i % 15 == 0:
+# 因为能被3和5同时整除的数都是15的倍数，所以我们可以直接判断是否能被15整除
+```
+另外还有两种写法  
+第一种  
+```python
+for i in range(1, n+1):
+	if i % 3 == 0:
+		if i % 5 == 0:
+# 这里先判断i是否是3的倍数，如果是就再判断i是否是5的倍数
+```
+第二种
+```python
+for i in range(1, n+1):
+	if i % 3 == 0 and i % 5 == 0:
+# 这里用到了逻辑运算符and，当两边同时成立时，才执行属于if的指令
+```
+3.初始化一个变量来保存个数的值
+```python
+n = int(input())
+geshu = 0
+for i in range(1, n+1):
+	if i % 15 == 0:
+		geshu = geshu + 1
+```
+4.输出结果
+```python
+n = int(input())
+geshu = 0
+for i in range(1, n+1):
+	if i % 15 == 0:
+		geshu = geshu + 1
+print(geshu)
+```
+### 第四题  
+1.先输入一个正整数n  
+```python
+n = int(input())
+```  
+2.求1到n之间能被4整除的个数  
+> 因为是1到n之间（一个区间），所以可以用for语句  
+> 因为求能被4整除  
+> 个数  
+```python
+n = int(input())
+geshu = 0 # 先初始化变量geshu，用来统计个数
+for i in range(1, n+1):
+	if i % 4 == 0:
+		geshu = geshu + 1
+```
+3.最后再输出结果
+```python
+n = int(input())
+geshu = 0
+for i in range(1, n+1):
+	if i % 4 == 0:
+		geshu = geshu + 1
+print(geshu)
+```  
+
+总结：for语句要注意range的使用，range是一个左闭右开的区间。看好是求总和还是求个数

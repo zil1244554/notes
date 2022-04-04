@@ -82,6 +82,15 @@ else:
 ![](https://note.youdao.com/yws/api/personal/file/WEB58e47d80710e74c4bf095605a1c66e0f?method=download&shareKey=f2038e5086a73b3d2413319c8980b88b)  
 ![](https://note.youdao.com/yws/api/personal/file/WEB3d25bf7b8230e9166dd0375c018121f3?method=download&shareKey=adbce944857846cac70e5739937d66ae)  
 
+补充几道练习题  
+```bash
+输入代码，判断输入的数是否是偶数，如果是，输出“偶数”，否则“输出奇数”
+输入
+10
+输出
+偶数
+```  
+
 
 ***  
 # 多分支的if语句  
@@ -119,5 +128,39 @@ A
 输入
 12
 4
-输出3
+输出  
+3
+```  
+第一题在学校里已经做过了，这边还是再做一遍  
+1.先输入一个正整数
+```python
+n = int(input())
 ```
+2.判断小明成绩的档次，因为有多个分支（多种情况），所以要用多分支的if语句  
+```python
+n = int(input())
+if n>85:
+    print("A")
+    # 判断n(小明的成绩)是否在A的范围，如果是就输出A
+elif 75 < n < 85:
+    print("B")
+    # 判断n(小明的成绩)是否在B的范围，如果是就输出B
+elif 60 < n < 75:
+    print("C")
+    # 判断n(小明的成绩)是否在C的范围，如果是就输出C
+elif n < 60:
+    print("D")
+    # 判断n(小明的成绩)是否在D的范围，如果是就输出D
+```
+
+***
+### 答案  
+### if分支:第一题  
+```python
+a = int(input())
+if a % 2 == 0:
+    print("偶数")
+else:
+    print("奇数")
+```
+注:答案不唯一，只要能得出样例输出就行，答案仅供参考  

@@ -28,6 +28,10 @@ if a = b:
 ```
 这时就表示print("1")是属于if这个分支里面的，当if成立时才运行print  
 这有点像古代的身份高低，顶格的代表身份最高，一个缩进的代表身份低一等，两个的代表再低一等，以此类推，当最高身份的人条件达成时，才能够让下面的代码人运行，只有当上级成立时，下级才能够运行。  
+这边举几个具体的例子  
+![](https://note.youdao.com/yws/api/personal/file/WEB5f5d2640816d1b413c9bb7dfed444e81?method=download&shareKey=b486a53bcc536aa4bd3b060df5ceca7d)  
+对比一下就能很清楚的知道了  
+![](https://note.youdao.com/yws/api/personal/file/WEBb4f87c757b56e47e484bb29cffc469f7?method=download&shareKey=b27bb7bf7de4d4601e1c2b38095ff353)
 
 在使用for语句的时候有的人可能会把print放在for循环下面，我们可以试着运行试试
 ```python

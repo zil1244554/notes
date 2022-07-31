@@ -44,4 +44,42 @@
 3
 ```
 
-**题解后面会发，如果你已经做好的话就加我qq把你的答案发给我我会发给你题解**
+**题解后面会发，如果你已经做好的话就加我qq把你的答案发给我我会发给你题解**  
+
+
+
+
+--------------------------------------------
+# 答案
+## 1.
+```python
+a=9.7
+b=4.6
+c=a-b
+s=max(a,b,c)
+print(s)
+```  
+
+## 2.  
+```python
+for i in range(0, 4):
+	a = int(input)
+	result += a
+print(result / 5)
+```  
+
+## 3.
+```python
+a = int(input())
+b = int(input())
+if a >= b:
+	print(a)
+else:
+	print(b)
+```  
+
+## 4.
+```python
+n = int(input())
+print(n / 100)
+```

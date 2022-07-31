@@ -6,4 +6,5 @@
 尽量帮你  
 这里有你想要的qwq  
 （当然也不一定包你过，重点是努力）  
-![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F09%2F20190109061207_eomds.thumb.400_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1649509102&t=78f14e084d05d1fae23fabbae60146a4)
+![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F09%2F20190109061207_eomds.thumb.400_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1649509102&t=78f14e084d05d1fae23fabbae60146a4)  
+注：本网站全部开源，感兴趣的朋友可以自己下载下来研究，有时间我也会出一些其他的教程，包括搭建网站。
